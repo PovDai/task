@@ -11,7 +11,7 @@ function isAdult(age) {
     } else {
         return 'vaikas';
     }
-}
+};
 
 console.log(isAdult(99), '-->', 'suauges');
 console.log(isAdult(18), '-->', 'suauges');
