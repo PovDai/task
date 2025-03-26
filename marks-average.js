@@ -24,3 +24,13 @@ console.log(marksAverage(['n', 10, 2, 8, 4, 6]));
 
 console.log(marksAverage('labas'));
 console.log(marksAverage(true));
+
+
+
+
+
+
+
+const c=[];
+if (Array.isArray(c)){ // ar yra arejus lentele. komanda (Array.isArray(imetam kintamaji))
+    console.log("Array");
