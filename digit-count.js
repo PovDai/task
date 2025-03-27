@@ -61,7 +61,11 @@ console.log(digitCount(-Infinity));
 console.log(digitCount(5.5));
 console.log(digitCount(5.5,'---',10));
 console.log(digitCount(-5.5));
-console.log(digitCount(1000000000000000000000));
+console.log(digitCount(1000000));
+console.log(digitCount(-3));
+console.log(digitCount(3,6));
+
+
 
 
 
