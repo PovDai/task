@@ -7,10 +7,9 @@ Amziaus ribos kriterijus: >=18 metu.
 
 function isAdult(age) {
     if (age >= 18) {
-        return 'suauges';
+        return 'suauges'
     } else {
-        return 'vaikas';
-    }
+        return 'vaikas' }
 };
 
 console.log(isAdult(99), '-->', 'suauges');
